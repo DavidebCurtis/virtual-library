@@ -1,6 +1,6 @@
 const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
-const path = require('path');
+// const path = require('path');
 
 const { typeDefs, resolvers } = require('./schemas');
 const db = require('./config/connection');
@@ -20,9 +20,9 @@ const server = new ApolloServer({
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../client/build')));
-}
+// if (process.env.NODE_ENV === 'production') {
+//   app.use(express.static(path.join(__dirname, '../client/build')));
+// }
 
 const startApolloServer = async (typeDefs, resolvers) => {
   await server.start();
