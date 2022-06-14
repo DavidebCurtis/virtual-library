@@ -1,4 +1,4 @@
-# Book Search Engine Starter Code 📕
+# Virtual Library 📕
 
 With Virtual Library users can search for books they might be interested in. Virtual Lirabry also lets logged-in users save their favorite books to local storage.
 
