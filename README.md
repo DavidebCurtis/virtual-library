@@ -10,7 +10,8 @@ Initally built with a REST API Virtual Library has been refactored to use GraphQ
 
 ## Usage
 
-Type the book you would like to find on the input on home page, once the API brings back the books, click on "save book", you can check your saved books on "see your books".
+Type the book you would like to find on the home page, once the API brings back the books, click on "save book". Saved books can be found on the "saved books" crumb located ted at the top of the site.
+
 ![virtual library book search page](assets/images/screenshot.png)
 
 ## Technologies
@@ -28,4 +29,4 @@ Type the book you would like to find on the input on home page, once the API bri
 ## Questions
 
 My GitHub username is DavidebCurtis, you can view my profile [here](https://github.com/DavidebCurtis).
-If you have any questions and would like to get in touch my email adress is geicianecosta43@gmail.com
+If you have any questions and would like to get in touch my email adress is heythereimdavidcurtis@gmail.com
